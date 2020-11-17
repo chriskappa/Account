@@ -154,17 +154,5 @@ public class Account {
         } while (selected != 'E');
     }
 
-    public static void main(String[] args) {
-        Account a1 = new Account("Christos", "a1234", "Test Adress");
-        Account a4 = new Account("Bart", "BR12345", "Test Adress");
-        Account a5 = new Account("Ricardo", "RR12345", "Test Adress");
-        Account a2 = new Account("McGregor", "f1234", "Test Adress");
-        Account a3 = new Account("Messi", "g12456", "Test Adress");
-        Account a6 = new Account("Ola", "Londonmet", "Test Adress");
-        a6.deposit(5000);
-        System.out.println(a6.prevtransaction);
-//        
-
-    }
 
 }
